@@ -45,9 +45,12 @@ Resources:
         pip3 install flask
         yum install git -y
         cd /home/ec2-user
+        wget https://raw.githubusercontent.com/necipulusoy/my-projects/main/Project-001-Roman-Numerals-Converter/app.py
+        mkdir templates
+        cd templates
         wget -P templates https://raw.githubusercontent.com/necipulusoy/my-projects/main/Project-001-Roman-Numerals-Converter/templates/index.html
         wget -P templates https://raw.githubusercontent.com/necipulusoy/my-projects/main/Project-001-Roman-Numerals-Converter/templates/result.html
-        wget https://raw.githubusercontent.com/serdarcw/cli_deneme/master/app.py
+        cd ..
         python3 app.py
         
 Outputs: 
