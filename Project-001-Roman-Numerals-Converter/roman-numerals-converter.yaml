@@ -43,7 +43,6 @@ Resources:
         yum update -y
         yum install python3 -y
         pip3 install flask
-        yum install git -y
         cd /home/ec2-user
         wget https://raw.githubusercontent.com/necipulusoy/my-projects/main/Project-001-Roman-Numerals-Converter/app.py
         mkdir templates
